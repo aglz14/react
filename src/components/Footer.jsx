@@ -3,9 +3,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-// const sumar = () => {
-//  return 1 + 2
-// }
-
-// sumar()
