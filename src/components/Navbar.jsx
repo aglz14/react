@@ -12,7 +12,17 @@ const Navbar = () => {
 
 // 2. exportacion por defecto
 // export default Navbar
+import "../styles/Navbar.css";
 
 export const Navbar = () => {
-  return <h1>Hola</h1>;
+  return (
+    <div className="container">
+      <h1>Navbar</h1>
+      <ul>
+        <li>Inicio</li>
+        <li>Productos</li>
+        <li>Contacto</li>
+      </ul>
+    </div>
+  );
 };
